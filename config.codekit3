@@ -118,6 +118,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/framework\/assets\/sass\/core\/_topbar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/framework\/assets\/sass\/core\/_topbar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/framework\/assets\/sass\/core\/core-loader.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1249,7 +1262,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/framework\/assets\/sass\/pages\/_home.scss": {
+	"\/framework\/assets\/sass\/pages\/_shop.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1257,7 +1270,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/framework\/assets\/sass\/pages\/_home.css",
+		"oAP": "\/framework\/assets\/sass\/pages\/_shop.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1351,6 +1364,24 @@
 		"oAP": "\/functions.php",
 		"oF": 0
 		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/readme.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -1388,7 +1419,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 507270567,
-	"displayValue": "test",
+	"displayValue": "Aireborne Outfitters",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_teal"
 	},

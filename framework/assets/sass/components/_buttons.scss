@@ -5,24 +5,11 @@
 //Black Button
 //==================
 .x-btn {
-	//border: 8px double $black !important;
-	padding: em(20) em(35)!important;
-	font-size: 16px !important;
-	letter-spacing: 1px;
-	font-weight: 600;
-	
-	//600px
-    @include respond-max($l-phone) {
-        width: 100%;
-        font-size: 14px !important;
-        padding: em(20) em(15) !important;
-    }
+		
 
 	&:hover,
 	&:focus {
-		//border: 8px double $black;
-		//background-color: rgba($black, .8) !important;
-		color: white;
+		
 	}
 	
 }
@@ -30,15 +17,10 @@
 //White Button
 //====================
 .x-btn.-white-btn{
-	border: 8px double white !important;
-	color: white;
-
-
+	
 	&:focus,
 	&:hover {
-		border: 8px double white;
-		background-color: rgba(white, .8) !important;
-		//color: $black;
+		
 	}
 
 }
@@ -47,14 +29,23 @@
 //Green Button
 //====================
 .x-btn.-lime-btn{
-	//border: 8px double $green !important;
-	color: white;
-
+	
 	&:focus,
 	&:hover {
-		//border: 8px double $green;
-		//background-color: rgba($green, .8) !important;
-		color: white;
+		
 	}
 
+}
+
+
+//Shop Button
+//=============================
+.product .button,
+.x-btn, .button, [type="submit"] {
+  text-shadow: none !important;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .5px;
+  font-size: 15px;
+  padding-top: 0.8em !important;
 }

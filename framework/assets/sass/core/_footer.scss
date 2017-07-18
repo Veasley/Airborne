@@ -1,3 +1,11 @@
 /* =============================
 	   FOOTER STYLES
 =============================== */
+.x-colophon.bottom {
+	background-color: #eeeeee;
+	padding: 0 !important;
+	
+	.x-social-global > a > i:hover {
+		color: white;
+	}
+}

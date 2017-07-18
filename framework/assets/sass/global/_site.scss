@@ -3,7 +3,49 @@
 //==========================================================
 
 a {
+	-webkit-outline: none !important;
 	-moz-outline: none !important;
 	outline: none !important;
+}
+
+
+
+// PAGE HEADER
+//=====================================
+header.x-header-landmark {
+ 	background-color: $grey;
+}
+
+.h-landmark > span {
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: white;
+	font-size: 32px;
+}
+
+
+//BREADCRUMBS
+//=======================================
+.x-breadcrumbs > span,
+.x-breadcrumbs > a,
+.x-icon-home {
+  color: white;
+  font-size: 13px;
+  
+  &:hover {
+	  color: #000000;
+  }
+}
+
+.delimiter {
+  color: white !important;
+}
+
+
+//CART PAGE
+//=====================================
+.woocommerce .cart .actions .coupon {
+  padding-top: 30px;
 }
 

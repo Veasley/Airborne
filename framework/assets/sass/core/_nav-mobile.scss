@@ -1,3 +1,26 @@
 /* =============================
 	MOBILE NAVIGATION STYLES
 =============================== */
+.x-btn-navbar {
+	box-shadow: none;
+}
+
+.x-navbar .mobile .x-nav li.current-menu-item > a {
+  background-color: #ff7d00;
+  color: white;
+}
+
+@include respond-custom(max-width, 380px) {
+  
+	a.x-brand img {
+		width: 200px !important;
+	}
+	
+	.x-btn-navbar {
+		margin-top: 20px !important;
+	}
+	
+	.x-navbar-inner {
+		min-height: 100px !important;
+	}
+}

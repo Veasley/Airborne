@@ -1,0 +1,31 @@
+/* =============================
+		SHOP PAGE
+=============================== */
+
+.woocommerce li.product {
+  margin-bottom: 5%;
+}
+
+
+//REVIEWS / COMMENTS
+//================================
+#reviews .x-comments-list {
+  margin-top: 15px;
+}
+
+#reviews .x-comments-list .comment{
+  border: none !important;
+  background-color: #eeeeee;
+}
+
+article.comment {
+  padding: 15px;
+}
+
+article.comment:before {
+  display: none !important;
+}
+
+.woocommerce #comments .x-comments-list .x-comment-header .star-rating-container {
+  border: none !important;
+}
