@@ -1229,7 +1229,7 @@
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 0,
 		"oAP": "\/style.css",
 		"oF": 2,
@@ -1356,6 +1356,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/framework\/includes\/helpers.php",
+		"oF": 0
+		},
+	"\/framework\/views\/renew\/wp-footer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/framework\/views\/renew\/wp-footer.php",
 		"oF": 0
 		},
 	"\/functions.php": {
