@@ -7,7 +7,7 @@
 
 .x-navbar .mobile .x-nav li.current-menu-item > a {
 	background-color: #ff7d00;
-	color: white;
+	color: white !important;
 }
 
 @include respond-custom(max-width, 380px) {

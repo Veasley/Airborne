@@ -8,25 +8,25 @@
 // Switching out Wordpress logo to our own logo
 ========================================================*/
 
-/*function custom_login_logo() {
+function custom_login_logo() {
 	
     echo '<style type="text/css">
     
     	body.login {
-			background-color: #000 !important;
+			background-color: #ffffff !important;
 		}
 
         h1 a { 
-        	background-image:url(/images/logo.jpg) !important; 
-          	background-size: 85%;
-			width: 100%;
-			height: 112px;
+        	background-image:url(/wp-content/uploads/2017/07/horizontal-logo.png) !important; 
+          	background-size: 90% !important;
+			width: 100% !important;
+			height: 97px !important;
 			background-position: center center;
         }
     </style>';
 }
 
-add_action('login_head', 'custom_login_logo');*/
+add_action('login_head', 'custom_login_logo');
 
 
 /*========================================================

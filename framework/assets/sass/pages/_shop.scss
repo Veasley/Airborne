@@ -1,9 +1,48 @@
 /* =============================
 		SHOP PAGE
 =============================== */
+.home {
+	
+	.x-header-landmark {
+		display: none;
+	}
+}
+
+
+.single-product {
+	
+	#shop-header {
+		display: none;
+	}
+}
+
+
+#shop-header,
+#footer-cta {
+	
+	@include respond-custom(max-width, 700px) {
+		padding: 50px 0 !important;
+	}
+
+	
+	h2.h-custom-headline,
+	h3.h-custom-headline {
+		margin: 0 !important;
+		
+		//1024px
+		@include respond-max($hor-tablet) {
+			font-size: 24px !important;
+		}
+		
+		@include respond-custom(max-width, 700px) {
+			font-size: 18px !important;
+			line-height: 1.2 !important;
+		}
+	}
+}
 
 .woocommerce li.product {
-  margin-bottom: 5%;
+ 	margin-bottom: 5% !important;
 }
 
 
@@ -28,4 +67,14 @@ article.comment:before {
 
 .woocommerce #comments .x-comments-list .x-comment-header .star-rating-container {
   border: none !important;
+}
+
+
+// CART
+//===================
+.x-cart-empty {
+	
+	p:first-of-type {
+		display: none;
+	}
 }

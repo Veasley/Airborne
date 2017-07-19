@@ -61,10 +61,3 @@ include_once( $inc_path . '/helpers.php' );
 
 include_once( $enqueue_path . '/scripts.php' );
 include_once( $enqueue_path . '/styles.php' );
-
-//
-// View Loaders
-//
-
-include_once( $loader_path . '/global-view-loader.php' );
-include_once( $loader_path . '/stack-view-loader.php' );

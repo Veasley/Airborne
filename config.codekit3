@@ -1358,10 +1358,10 @@
 		"oAP": "\/framework\/includes\/helpers.php",
 		"oF": 0
 		},
-	"\/framework\/views\/renew\/wp-footer.php": {
+	"\/framework\/views\/renew\/woocommerce.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/framework\/views\/renew\/wp-footer.php",
+		"oAP": "\/framework\/views\/renew\/woocommerce.php",
 		"oF": 0
 		},
 	"\/functions.php": {

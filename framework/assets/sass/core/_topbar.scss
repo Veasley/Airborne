@@ -5,18 +5,18 @@
   background-color: rgb(255,125,0) !important;
   min-height: 26px;
   
-  > .p-info {
-	  color:white;
-	  text-align: center;
-	  width: 100%;
-	  margin: 2px 0 !important;
-	  text-transform: uppercase;
-
-  }
+	.p-info {
+		color: white !important;
+		text-align: center;
+		width: 100%;
+		margin: 2px 0 !important;
+		text-transform: uppercase;
+	
+	}
   
   
-  > .x-social-global {
-	  display: none;
+    .x-social-global {
+	  	display: none;
 	}
 
 }

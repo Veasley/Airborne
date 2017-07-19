@@ -9,12 +9,12 @@ a {
 }
 
 
-
 // PAGE HEADER
 //=====================================
-header.x-header-landmark {
+.x-header-landmark {
  	background-color: $grey;
 }
+
 
 .h-landmark > span {
 	text-transform: uppercase;
@@ -30,12 +30,12 @@ header.x-header-landmark {
 .x-breadcrumbs > span,
 .x-breadcrumbs > a,
 .x-icon-home {
-  color: white;
-  font-size: 13px;
-  
-  &:hover {
-	  color: #000000;
-  }
+	color: white;
+	font-size: 13px;
+	
+	&:hover {
+		color: #000000;
+	}
 }
 
 .delimiter {
@@ -46,6 +46,6 @@ header.x-header-landmark {
 //CART PAGE
 //=====================================
 .woocommerce .cart .actions .coupon {
-  padding-top: 30px;
+ 	padding-top: 30px;
 }
 

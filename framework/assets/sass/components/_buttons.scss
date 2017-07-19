@@ -42,10 +42,11 @@
 //=============================
 .product .button,
 .x-btn, .button, [type="submit"] {
-  text-shadow: none !important;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: .5px;
-  font-size: 15px;
-  padding-top: 0.8em !important;
+	text-shadow: none !important;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .5px;
+	font-size: 15px;
+	padding-top: 0.8em !important;
+	padding-bottom: 0.8em !important;
 }
