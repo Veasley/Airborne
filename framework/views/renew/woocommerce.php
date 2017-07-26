@@ -18,7 +18,7 @@
 	?>
 
 	<!-- CUSTOME SHOP HEADER -->
-	<div id="shop-header" class="x-section bg-image _before _overlay-black" style=" margin: 0px; padding: 5% 0; background-image: url(<?php echo esc_url ( $shop_header_img['url'] ) ; ?>); background-color: transparent;" data-x-element="section" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}">
+	<div id="shop-header" class="x-section bg-image _before _overlay-black" style=" margin: 0px; padding: 8% 0; background-image: url(<?php echo esc_url ( $shop_header_img['url'] ) ; ?>); background-color: transparent;" data-x-element="section" data-x-params="{&quot;type&quot;:&quot;image&quot;,&quot;parallax&quot;:false}">
 		<!-- start container -->
 		<div class="x-container max width cs-ta-center _tagline" style="margin: 0px auto; padding: 0px;">
 			<div class="x-column x-sm header-top x-1-1" style="padding: 0px 0px 0px 0px;">

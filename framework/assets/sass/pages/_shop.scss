@@ -1,13 +1,23 @@
 /* =============================
 		SHOP PAGE
 =============================== */
-.home {
+.home,
+.archive {
+	
+	.site {
+		background: url(/wp-content/uploads/2017/07/shop-bg.jpg); 
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+		background-repeat: repeat-x;
+		background-color: transparent !important;
+	}
 	
 	.x-header-landmark {
 		display: none;
 	}
 }
-
 
 .single-product {
 	
