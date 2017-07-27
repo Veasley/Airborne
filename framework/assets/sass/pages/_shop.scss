@@ -12,6 +12,14 @@
 		background-size: contain;
 		background-repeat: repeat;
 		background-color: transparent !important;
+		
+		
+		@include respond-custom(max-width, 479px) {
+			-webkit-background-size: 320%;
+			-moz-background-size: 320%;
+			-o-background-size: 320%;
+			background-size: 320%;
+		}
 	}
 	
 	.x-header-landmark {
